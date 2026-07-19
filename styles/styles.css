@@ -150,7 +150,6 @@
     /* Join Now Section Styles */
     .join-now-section-container{
         margin-top: 120px;
-        margin-bottom: 120px;
     }
     .join-now-section-parent{
         border-radius: 16px;
@@ -184,6 +183,57 @@
         justify-content: center;
         margin-top: 150px;
         flex-direction: row;
+    }
+
+    /* Best Offer Section Styles */
+    .best-offer-section-container{
+        margin: 120px auto;
+        display: grid;
+        gap: 120px;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .best-offer-left-heading{
+        font-size: 24px;
+        color: #FF0000;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+    }
+    .best-offer-left-title{
+        font-size: 48px;
+        font-weight: 700;
+        color:#070211;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+    .best-offer-left-subtitle{
+        width: 90%;
+        font-size: 20px;
+        line-height: 32px;
+        color: rgba(7, 2, 17, 0.6);
+        font-family: "Inter", sans-serif;
+    }
+    .best-offer-center-parent {
+        border-radius: 50%;
+        padding: 20px;
+        border: 15px solid #FF0000 ;
+    }
+   
+    .best-offer-right-heading{
+        font-size: 48px;
+        color: #FF0000;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+    }
+    .best-offer-right-des{
+        width: 90%;
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 16px;
+        margin-bottom: 28px;
+        color: rgba(7, 2, 17, 0.6);
+        font-family: "Inter", sans-serif;
     }
 
 /* Reponsive Styles for Small Screens */
@@ -292,6 +342,35 @@
         font-size: 16px;
         padding: 14px 28px;
     }
+    /* Best Offer Section Styles */
+    .best-offer-section-container{
+        margin: 60px 20px;
+        gap: 50px;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+      .best-offer-left-heading{
+        font-size: 18px;
+    }
+    .best-offer-left-title{
+        font-size: 35px;
+        margin-bottom: 18px;
+    }
+    .best-offer-left-subtitle{
+        font-size: 18px;
+    }
+    .best-offer-center-parent {
+        border-radius: 50%;
+        padding: 20px;
+        border: 15px solid #FF0000 ;
+    }
+   
+    .best-offer-right-heading{
+        font-size: 40px;
+    }
+    .best-offer-right-des{
+        font-size: 18px;
+    }
+
 }
 
 /* Responsive Styles For Medium Screens */
@@ -375,4 +454,23 @@
     .shared-btn{
         font-size: 18px;
     }
+    /* Best Offer Section Styles */
+    .best-offer-section-container{
+        gap: 50px;
+        margin: 80px 30px;
+        grid-template-columns: repeat(2 , 1fr)  ;
+       
+        
+    }
+    .best-offer-left-heading{
+        font-size: 22px;
+    }
+    .best-offer-left-title{
+        font-size: 44px;
+    }
+   
+    .best-offer-right-heading{
+        font-size: 48px;
+    }
+  
 }
