@@ -1,7 +1,48 @@
 /* Universal Styles */
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", serif;
 }
 
 /* Shared Styles */
+    .container{
+        margin:auto;
+        max-width: 1400px;
+    }
+    img{
+        max-width: 100%;
+    }
+/* Header Section Styles */
+    .hero-parent{
+        background-image: linear-gradient(to bottom, #070211, transparent),url("../images/Banner\ Image.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        margin: 50px auto;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .hero-content {
+        padding: 190px 340px;
+        text-align: center;
+        font-family: "Merriweather", serif;
+    }
+
+    .hero-content h3{
+        font-size: 32px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+
+    .hero-content h1{
+        color: #FFFFFF;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 95px;
+    }
