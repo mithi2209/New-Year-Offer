@@ -61,7 +61,7 @@ img {
     .off-discount-contents{
         margin-top: 100px;
     }
-    .off-discount-tittle{
+    .off-discount-title{
         color: #FF0000;
         font-size: 88px;
         font-weight: 700;
@@ -74,7 +74,7 @@ img {
         margin: 50px auto 20px auto;
         font-family: "Inter", sans-serif;
     }
-    .off-discount-subtittle{
+    .off-discount-subtitle{
         color: #070211;
         font-size: 48px;
         font-weight: 700;
@@ -84,6 +84,53 @@ img {
     .off-discount-img{
         margin-top: 50px;
     }
+    /* Mid Night Part Section Styles  */
+    .midnight-part-section-container {
+        margin: 120px auto;
+        position: relative;
+    }
+    .midnight-section-parent{
+        width: 100%;
+        height: 100%;
+        padding: 150px;
+        border-radius: 16px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(to right, #070211, transparent),
+         url("../images/Vectorrr.png");
+    }
+    .midnight-section-contents-parent{
+       text-align: left;
+    }
+    .midnight-section-title{
+        font-size: 64px;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: 7.04px;
+        font-family: "Merriweather", serif;
+    }
+    .midnight-section-subtitle{
+        font-size: 18px;
+        line-height: 30px;
+        margin: 24px auto 48px auto;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: "Inter", sans-serif;
+    }
+    .midnight-party-btn{
+        font-size: 20px;
+        color: #FFFFFF;
+        font-weight: 700;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+    }
+    .year-img{
+        position: absolute;
+        display: block;
+        right: 140px;
+        top: 80px;
+    }
 
 /* Reponsive Styles for Small Screens */
 @media screen and (max-width:576px) {
@@ -91,6 +138,16 @@ img {
     /* Haeder Section Styles */
     header {
         margin: 20px;
+    }
+      .hero-parent {
+        background-image: linear-gradient(to bottom, #070211, transparent),
+            url("../images/Mobile\ Banner\ Image.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        height: 100%;
+        width: 100%;
     }
 
     .hero-content {
@@ -109,19 +166,53 @@ img {
     .off-discount-contents{
         margin-top: 60px;
     }
-    .off-discount-tittle{
+    .off-discount-title{
         font-size: 48px;
     }
     .off-discount-des{
         font-size: 18px;
         margin: 30px auto 16px auto;
     }
-    .off-discount-subtittle{
+    .off-discount-subtitle{
         font-size: 30px;
     }
     .off-discount-img{
         margin: 60px 20px;
     }
+    /* Mid Night Part Section Styles  */
+    .midnight-part-section-container {
+        margin: 60px 20px;
+    }
+    .midnight-section-parent{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        border-radius: 16px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(to right, #070211, transparent),
+         url("../images/Mobile\ Vectorrr.png");
+    }
+    .midnight-section-contents-parent{
+        text-align: center;
+    }
+    .midnight-section-title{
+        font-size: 35px;
+        line-height:normal;
+        letter-spacing: normal;
+    }
+    .midnight-section-subtitle{
+        font-size: 16px;
+        line-height: normal;
+        margin: 18px auto 30px auto;
+    }
+     .midnight-party-btn{
+        font-size: 16px;
+     }
+     .year-img{
+        display: none;
+     }
 }
 
 /* Responsive Styles For Medium Screens */
@@ -147,17 +238,38 @@ img {
     .off-discount-contents{
         margin-top: 80px;
     }
-    .off-discount-tittle{
+    .off-discount-title{
         font-size: 72px;
     }
     .off-discount-des{
         margin: 40px auto 20px auto;
     }
-    .off-discount-subtittle{
+    .off-discount-subtitle{
         font-size: 40px;
     }
     .off-discount-img{
         margin: 60px 30px;
     }
-
+    /* Mid Night Part Section Styles  */
+    .midnight-part-section-container{
+        margin: 80px 30px ;
+    }
+     .midnight-section-parent{
+        padding: 40px;
+    }
+    .midnight-section-contents-parent{
+       text-align: center;
+    }
+    .midnight-section-title{
+        font-size: 50px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .midnight-section-subtitle{
+        line-height: normal;
+        margin: 20px ;
+    }
+    .year-img{
+        display: none;
+    }
 }
