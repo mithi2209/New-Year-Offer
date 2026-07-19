@@ -1,5 +1,5 @@
 /* Universal Styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,41 +8,156 @@
 }
 
 /* Shared Styles */
-    .container{
-        margin:auto;
-        max-width: 1400px;
-    }
-    img{
-        max-width: 100%;
-    }
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Header Section Styles */
-    .hero-parent{
-        background-image: linear-gradient(to bottom, #070211, transparent),url("../images/Banner\ Image.png");
+    header {
+        margin: 50px auto;
+    }
+
+    .hero-parent {
+        background-image: linear-gradient(to bottom, #070211, transparent),
+            url("../images/Banner\ Image.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 16px;
-        margin: 50px auto;
         height: 100%;
         width: 100%;
     }
-    
+
     .hero-content {
         padding: 190px 340px;
         text-align: center;
         font-family: "Merriweather", serif;
     }
 
-    .hero-content h3{
+    .hero-content h3 {
         font-size: 32px;
         font-weight: 400;
         color: #FFFFFF;
         margin-bottom: 16px;
     }
 
-    .hero-content h1{
+    .hero-content h1 {
         color: #FFFFFF;
         font-size: 72px;
         font-weight: 700;
         line-height: 95px;
     }
+
+/* Main Section Styles */
+    /* 65% Off Section Styles */
+    .off-discount-parent{
+        text-align: center;
+    }
+    .off-discount-contents{
+        margin-top: 100px;
+    }
+    .off-discount-tittle{
+        color: #FF0000;
+        font-size: 88px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+    }
+    .off-discount-des{
+        color: #FF0000;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 50px auto 20px auto;
+        font-family: "Inter", sans-serif;
+    }
+    .off-discount-subtittle{
+        color: #070211;
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+
+    }
+    .off-discount-img{
+        margin-top: 50px;
+    }
+
+/* Reponsive Styles for Small Screens */
+@media screen and (max-width:576px) {
+
+    /* Haeder Section Styles */
+    header {
+        margin: 20px;
+    }
+
+    .hero-content {
+        padding: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+   /* 65% Off Section Styles */
+    .off-discount-contents{
+        margin-top: 60px;
+    }
+    .off-discount-tittle{
+        font-size: 48px;
+    }
+    .off-discount-des{
+        font-size: 18px;
+        margin: 30px auto 16px auto;
+    }
+    .off-discount-subtittle{
+        font-size: 30px;
+    }
+    .off-discount-img{
+        margin: 60px 20px;
+    }
+}
+
+/* Responsive Styles For Medium Screens */
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* Haeder Section Styles */
+     header {
+        margin: 30px;
+    }
+
+    .hero-content {
+        padding: 70px;
+    }
+
+    .hero-content h3 {
+        font-size: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+        line-height: normal;
+    }
+    /* 65% Off Section Styles */
+    .off-discount-contents{
+        margin-top: 80px;
+    }
+    .off-discount-tittle{
+        font-size: 72px;
+    }
+    .off-discount-des{
+        margin: 40px auto 20px auto;
+    }
+    .off-discount-subtittle{
+        font-size: 40px;
+    }
+    .off-discount-img{
+        margin: 60px 30px;
+    }
+
+}
