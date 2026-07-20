@@ -371,7 +371,52 @@
         font-weight: 500;
         border-radius: 0px 50px 50px 0px;
     }
-
+/* Footer Sction Styles */ 
+    footer{
+        background-color: #070211; 
+    }
+    .footer-section-parent{
+        padding: 120px 0 50px 0;
+       
+    }
+    .footer-info-parent{
+        display: flex;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-address p {
+        font-size: 24px;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 40px;
+        font-family: "Inter", sans-serif;
+    }
+ 
+    .contact, .website ,
+    .copyright p {
+        font-size: 24px;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 40px;
+        font-family: "Inter", sans-serif;
+    }
+    .social-links-parent{
+        gap: 30px;
+        display: flex;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .underline{
+        border: 1px solid #ffffff26;
+    }
+    .copyright{
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
 /* Reponsive Styles for Small Screens */
 @media screen and (max-width:576px) {
 
@@ -596,7 +641,38 @@
     .input-btn{
         padding: 14px 16px;
     }
-
+/* Footer Sction Styles */
+    .footer-section-parent{
+        padding: 60px 20px 50px 20px;
+       
+    }
+    .footer-info-parent{
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-address p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+ 
+    .contact, .website ,
+    .copyright p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .social-links-parent{
+        gap: 10px;
+        width: 50%;
+        margin: 30px auto;
+    }
+    
+    .copyright{
+        margin-top: 30px;
+    }
 
 }
 
@@ -762,5 +838,29 @@
     .newsletter-mail-input input[type="email"]{
         width: 380px;
     }
-    
+/* Footer Sction Styles */
+    .footer-section-parent{
+        padding: 80px 30px 50px 30px;
+       
+    }
+    .footer-info-parent{
+        margin-bottom: 30px;
+    }
+    .footer-address p {
+        font-size: 20px;
+    }
+ 
+    .contact, .website ,
+    .copyright p {
+        font-size: 20px;
+    }
+    .social-links-parent{
+        gap: 15px;
+        width: 35%;
+        margin: 30px auto;
+    }
+ 
+    .copyright{
+        margin-top: 30px;
+    }
 }
