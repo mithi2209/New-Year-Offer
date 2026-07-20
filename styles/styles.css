@@ -187,9 +187,9 @@
 
     /* Best Offer Section Styles */
     .best-offer-section-container{
-        margin: 120px auto;
         display: grid;
         gap: 120px;
+        margin-top: 120px;
         align-items: center;
         justify-content: center;
         grid-template-columns: repeat(3 , 1fr);
@@ -235,7 +235,55 @@
         color: rgba(7, 2, 17, 0.6);
         font-family: "Inter", sans-serif;
     }
-
+    /* Holiday Sale Section Styles */
+    .holiday-section-container{
+        margin-top: 130px;
+    }
+    .holiday-section-text-contents-parent{
+        text-align: center;
+    }
+    .holiday-section-heading{
+        color: #070211;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+    }
+    .holiday-sale-title{
+        font-size: 72px ;
+        font-weight: 800;
+        color: #070211;
+        margin-top: 16px;
+        font-family: "Merriweather", serif;
+    }
+    .holiday-sale-title span{
+        color: #FF0000;
+    }
+    .holiday-sale-subtitle{
+        width: 40%;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        margin: 28px auto 0 auto;
+        color: rgba(7, 2, 17, 0.6);
+        font-family: "Inter", sans-serif;
+    }
+    .holiday-sale-bottom-parent{
+        height: 220px;
+        position: relative;
+        margin-top: 600px;
+        border-radius: 16px;
+        background-color: #FF0000;
+    }
+    .gift-box{
+        left: 50px;
+        bottom: -30px;
+        position: absolute;
+    }
+    .holiday-sale-tag{
+        bottom: 350px;
+        right: 100px;
+        position: absolute;
+    }
 /* Reponsive Styles for Small Screens */
 @media screen and (max-width:576px) {
 
@@ -370,6 +418,38 @@
     .best-offer-right-des{
         font-size: 18px;
     }
+    /* Holiday Sale Section Styles */
+    .holiday-section-container{
+        margin:60px 20px;
+    }
+   
+    .holiday-section-heading{
+        font-size: 20px;
+    }
+    .holiday-sale-title{
+        font-size: 38px ;
+    }
+  
+    .holiday-sale-subtitle{
+        width: 90%;
+        font-size: 16px;
+        line-height: normal;
+        margin: 20px auto 0 auto;
+    }
+    .holiday-sale-bottom-parent{
+        height: 150px;
+        margin-top: 350px;
+        border-radius: 16px;
+    }
+    .gift-box{
+        bottom: -20px;
+        left: 20px;
+    }
+     .holiday-sale-tag{
+        bottom: 250px;
+        right: 100px;
+        width: 150px;
+    }
 
 }
 
@@ -472,5 +552,29 @@
     .best-offer-right-heading{
         font-size: 48px;
     }
-  
+  /* Holiday Sale Section Styles */
+   .holiday-section-container{
+        margin:80px 30px;
+    }
+   
+    .holiday-sale-title{
+        font-size: 50px ;
+    }
+   
+    .holiday-sale-subtitle{
+        width: 80%;
+        margin: 24px auto 0 auto;
+    }
+    .holiday-sale-bottom-parent{
+        margin-top: 500px;
+    }
+    .gift-box{
+        bottom: -30px;
+        left: 20px;
+    }
+    .holiday-sale-tag{
+        bottom: 400px;
+        right: 200px;
+        width: 250px;
+    }
 }
